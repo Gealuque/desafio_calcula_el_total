@@ -18,8 +18,8 @@ let valorCantidad = 0;
 
 mas.addEventListener('click', () => {
     valorCantidad++;
-    total.textContent = valorCantidad * precio;
     cantidad.textContent = valorCantidad;
+    total.textContent = valorCantidad * precio;
 })
 
 menos.addEventListener('click', () => {
@@ -27,8 +27,8 @@ menos.addEventListener('click', () => {
     {
         valorCantidad--;
     }
-    total.textContent = valorCantidad * precio;
     cantidad.textContent = valorCantidad;
+    total.textContent = valorCantidad * precio;
 })
 
 
