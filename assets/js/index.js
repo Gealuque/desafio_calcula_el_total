@@ -1,7 +1,7 @@
 precio = 400000
 
 precioSpan = document.querySelector(".precio-inicial");
-precioSpan.innerHTML = precio.toLocaleString('es-ES');
+precioSpan.innerHTML = precio;
 
 /*Declaración de Variables*/
 
