@@ -28,11 +28,11 @@ menos.addEventListener('click', () => {
     if(valorCantidad > 0)
     {
         valorCantidad--;
+        cantidad.innerHTML = valorCantidad;
+        total = valorCantidad * precio;
+        const valorSeparador = total.toLocaleString('es-ES');
+        document.querySelector('.valor-total').innerHTML = valorSeparador;
     }
-    cantidad.innerHTML = valorCantidad;
-    total = valorCantidad * precio;
-    const valorSeparador = total.toLocaleString('es-ES');
-    document.querySelector('.valor-total').innerHTML = valorSeparador;
 })
 
 
